@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "filecoin-address"
-version = "0.1.2"
+version = "0.2.0"
 description = "Filecoin address manipulation routines for Python"
 readme = "README.md"
 requires-python = ">=3.7"
