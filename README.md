@@ -156,10 +156,15 @@ pip install -e .
 pytest
 ```
 
-### Building for PyPI
+### Packaged example
+
+There is a simple exampel to show how to use the module from your own external code.
+
+To run it, install the module then try:
 
 ```bash
-python -m build
+cd examples
+python ./convert_address.py 0x351F3A0FAfc8fF97d5359f793A0e5d5206D9BB0D
 ```
 
 ## License
