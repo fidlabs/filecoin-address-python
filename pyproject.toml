@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "filecoin-address"
-version = "0.1.0"
+version = "0.1.2"
 description = "Filecoin address manipulation routines for Python"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -48,6 +48,7 @@ packages = ["filecoin_address"]
 
 [tool.setuptools.package-data]
 filecoin_address = ["py.typed"]
+
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
