@@ -21,6 +21,12 @@ from .encoding import (
     encode,
     new_from_string,
 )
+from .id_address import (
+    eth_address_from_id,
+    id_from_address,
+    id_from_eth_address,
+    id_from_payload,
+)
 
 __all__ = [
     # Enums
@@ -32,9 +38,14 @@ __all__ = [
     # Validation
     "validate_address_string",
     "check_address_string",
-    # Conversion
+    # Conversion (Delegated addresses)
     "delegated_from_eth_address",
     "eth_address_from_delegated",
+    # Conversion (ID addresses)
+    "id_from_address",
+    "id_from_payload",
+    "id_from_eth_address",
+    "eth_address_from_id",
     # Encoding
     "decode",
     "encode",
